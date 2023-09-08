@@ -1,6 +1,6 @@
 :root{
     --black: #171321;
-    --magenta: #45214A;
+    --darkPurple: #45214A;
     --purple: #323050;
     --navy: #21445B;
     --woodland: #1A6566;
@@ -17,4 +17,24 @@ html{
 *::before,
 *::after{
     box-sizing: inherit;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: var(--darkPurple);
+    color: var(--white);
+    font-size: var(--font-size);
+}
+h1,h2,h3{
+    margin: 0;
+}
+
+#intro{
+    padding-bottom: 10rem;
+}
+
+#intro p{
+    font-size: 1rem;
+    line-height: 1.5;
 }
