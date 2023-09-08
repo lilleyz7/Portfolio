@@ -1,0 +1,20 @@
+:root{
+    --black: #171321;
+    --magenta: #45214A;
+    --purple: #323050;
+    --navy: #21445B;
+    --woodland: #1A6566;
+    --moss: #5D8A66;
+    --white: #f7f8fa;
+    --font-size: 1.3rem;
+}
+
+html{
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
