@@ -1,0 +1,89 @@
+:root{
+    --black: #171321;
+    --darkPurple: #45214A;
+    --purple: #323050;
+    --navy: #21445B;
+    --woodland: #1A6566;
+    --moss: #5D8A66;
+    --white: #f7f8fa;
+    --font-size: 1.3rem;
+}
+
+html{
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: var(--darkPurple);
+    color: var(--white);
+    font-size: var(--font-size);
+}
+h1,h2,h3{
+    margin: 0;
+}
+
+#intro{
+    padding-bottom: 5rem;
+}
+
+#intro p{
+    font-size: 1rem;
+    line-height: 1.5;
+    color: var(--white);
+    
+}
+
+#intro h2{
+    font-size: 4rem;
+}
+
+.name span{
+    font-size: 4rem;
+    color: var(--woodland);
+    display: block;
+}
+
+#contact{
+    width: 400px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 3rem;
+}
+
+#contact p{
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+
+#contact p:last-child{
+    margin-top: 3rem 0;
+}
+
+#contact h2{
+    font-size: 3rem;
+}
+
+nav{
+    font-size: 80%;
+    padding: 1rem;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
